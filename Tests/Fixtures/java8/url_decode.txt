@@ -1,0 +1,11 @@
+Band+SW	42616e64205357
+caf%C3%A9	636166c3a9
+caf%c3%a9	636166c3a9
+%E2%82%AC	e282ac
+a%2Bb	612b62
+%FF	efbfbd
+%C3	efbfbd
+plain	706c61696e
+%41%42	4142
+100%25	31303025
+a*b.c-d_e~f	612a622e632d645f657e66

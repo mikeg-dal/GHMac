@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DeviceManager>
+<panel basePTT="false" deviceType="RT-21" initialState="true" name="Tower" order="0" port="RT21-NET" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="Fixed Antenna" fixedHeading="999.0" initialState="true" name="40m Fixed" order="1" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" cloneOffset="-30.0" deviceType="Cloned Antenna" initialState="true" name="Tower 15m" order="2" port="COM5" subType="RT-21" wioAddress="N/A"/>
+<panel basePTT="true" deviceType="GHE Base" initialState="true" name="Yagi1,Yagi2,Yagi3" order="3" port="COM7" subType="Stack Match (1-4)" wioAddress="4"/>
+<panel basePTT="true" deviceType="GHE Base" initialState="false" name="A&amp;B &lt;x&gt; &quot;q&quot; 'a' é€&#9;tab" order="4" port="/dev/cu.usbserial-A1" subType="8 Simple" wioAddress="255"/>
+<panel basePTT="false" deviceType="Fixed Antenna" fixedHeading="-123456.0" initialState="false" name="Fixed unset" order="5" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" cloneOffset="-654321.0" deviceType="Cloned Antenna" initialState="false" name="Clone unset" order="6" port="COM5" subType="RT-21" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="Fixed Antenna" fixedHeading="1.0E-4" initialState="false" name="Tiny" order="7" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" cloneOffset="12.5" deviceType="Cloned Antenna" initialState="false" name="Clone 12.5" order="8" port="COM5" subType="RT-21" wioAddress="3"/>
+<panel basePTT="false" deviceType="DCU-1" initialState="false" name="DCU" order="9" port="COM9" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="true" deviceType="Virtual Switch" initialState="false" name="Virt" order="10" port="COM7" subType="8 Simple" wioAddress="0"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="line1&#10;line2&#13;" order="11" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="Emoji &#128225; &gt;" order="12" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="Fixed Antenna" fixedHeading="1.23456789E7" initialState="false" name="Big" order="13" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="14" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="15" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="16" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="17" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="18" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="19" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="20" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="21" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="22" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="23" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="24" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="25" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="26" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="27" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="28" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="29" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="30" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="31" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="32" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="33" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="34" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="35" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="36" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="37" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="38" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="39" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="40" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="41" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="42" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="43" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="44" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="45" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="46" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="47" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="48" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="49" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="50" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="51" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="52" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="53" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="54" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="55" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="56" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="57" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="58" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="59" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="60" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="61" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="62" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="63" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="64" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="65" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="66" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="67" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="68" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="69" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="70" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="71" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="72" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="73" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="74" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="75" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="76" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="77" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="78" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="79" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="80" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="81" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="82" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="83" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="84" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="85" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="86" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="87" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="88" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="89" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="90" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="91" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="92" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="93" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="94" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="95" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="96" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="97" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="98" port="N/A" subType="N/A" wioAddress="N/A"/>
+<panel basePTT="false" deviceType="RT-21" initialState="false" name="" order="99" port="N/A" subType="N/A" wioAddress="N/A"/>
+</DeviceManager>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="HEADING">
+<devicename>Demo 4-Square</devicename>
+<positions>
+<position beamwidth="90" bidirectional="false" heading="45" lowerFreq="0.0" name="N.E." order="0" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="90" bidirectional="false" heading="135" lowerFreq="0.0" name="S.E." order="1" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="on"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="90" bidirectional="false" heading="225" lowerFreq="0.0" name="S.W." order="2" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="on"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="90" bidirectional="false" heading="315" lowerFreq="0.0" name="N.W." order="3" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="off"/>
+<pin number="3" state="on"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="360" bidirectional="true" heading="0" lowerFreq="0.0" name="Omni (all)" order="4" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="on"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+</positions>
+</WioDevice>

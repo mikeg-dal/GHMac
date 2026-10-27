@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="SWITCH" matrixlockout="false" virtualSwitch="false">
+<devicename>Split Secondary</devicename>
+<positions>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="0.0" name="1" order="0" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="on"/>
+<pin number="2" state="dont-care"/>
+<pin number="1" state="dont-care"/>
+<pin number="0" state="dont-care"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="0.0" name="2" order="1" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="off"/>
+<pin number="4" state="on"/>
+<pin number="3" state="off"/>
+<pin number="2" state="dont-care"/>
+<pin number="1" state="dont-care"/>
+<pin number="0" state="dont-care"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="0.0" name="3" order="2" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="on"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="dont-care"/>
+<pin number="1" state="dont-care"/>
+<pin number="0" state="dont-care"/>
+</position>
+</positions>
+</WioDevice>

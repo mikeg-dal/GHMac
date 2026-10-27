@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="BANDSWITCH" matrixlockout="true" virtualSwitch="false">
+<devicename>Band &lt;&amp;&gt; é "q" 'a' 	 &#128225; &#1;</devicename>
+<positions>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="1.8" name="160 M" order="0" upperFreq="2.0">
+<pin number="7" state="off"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="momentary"/>
+<pin number="2" state="dont-care"/>
+<pin number="1" state="off"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="360" bidirectional="true" heading="359" lowerFreq="1.0E-4" name="Tiny" order="1" upperFreq="1.0E7">
+<pin number="7" state="on"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="on"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="20" bidirectional="false" heading="10" lowerFreq="3.5" name="Four pins" order="2" upperFreq="3.8">
+<pin number="3" state="off"/>
+<pin number="2" state="momentary"/>
+<pin number="1" state="dont-care"/>
+<pin number="0" state="on"/>
+</position>
+</positions>
+</WioDevice>

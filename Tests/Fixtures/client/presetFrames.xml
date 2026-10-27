@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<presetFrames>
+<presetFrame height="400" keepVisible="true" name="Tower 40m preset selection" visible="true" width="400" x="10" y="20"/>
+<presetFrame height="250" keepVisible="false" name="A&amp;B &lt;&quot;x&quot;&gt; preset selection" visible="false" width="300" x="-5" y="0"/>
+<presetFrame height="400" keepVisible="false" name="Global preset selection" visible="false" width="400" x="0" y="0"/>
+</presetFrames>

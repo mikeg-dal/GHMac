@@ -1,0 +1,9 @@
+.build/
+*.xcodeproj/
+DerivedData/
+*.xcuserstate
+.DS_Store
+Tests/Fixtures/java8/*.class
+
+# Local-only material (never publish)
+private/

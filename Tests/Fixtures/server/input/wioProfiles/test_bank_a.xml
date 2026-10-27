@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="ON_OFF_BANK" matrixlockout="true">
+<devicename>Test Bank A</devicename>
+<positions>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="1.7" name="160" order="0" upperFreq="2.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="3.4" name="80" order="1" upperFreq="4.1">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="5.2" name="60" order="2" upperFreq="5.5">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="off"/>
+<pin number="1" state="on"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="6.9" name="40" order="3" upperFreq="7.4">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="off"/>
+<pin number="1" state="on"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="10.0" name="30" order="4" upperFreq="10.2">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="on"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="13.9" name="20" order="5" upperFreq="14.4">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="on"/>
+<pin number="1" state="off"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="18.0" name="17" order="6" upperFreq="18.2">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="on"/>
+<pin number="1" state="on"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="20.9" name="15" order="7" upperFreq="21.5">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="on"/>
+<pin number="2" state="on"/>
+<pin number="1" state="on"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="0.0" name="None" order="8" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+</positions>
+</WioDevice>

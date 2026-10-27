@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="BANDSWITCH" matrixlockout="false" virtualSwitch="false">
+<devicename>Band Select 8</devicename>
+<positions>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="50.0" name="6" order="0" upperFreq="54.0">
+<pin number="7" state="off"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="28.0" name="10" order="1" upperFreq="30.0">
+<pin number="7" state="off"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="on"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="24.0" name="12" order="2" upperFreq="25.0">
+<pin number="7" state="off"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="on"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="21.0" name="15" order="3" upperFreq="22.0">
+<pin number="7" state="off"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="on"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="18.0" name="17" order="4" upperFreq="19.0">
+<pin number="7" state="off"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="on"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="14.0" name="20" order="5" upperFreq="15.0">
+<pin number="7" state="off"/>
+<pin number="6" state="off"/>
+<pin number="5" state="on"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="7.0" name="40" order="6" upperFreq="7.5">
+<pin number="7" state="off"/>
+<pin number="6" state="on"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="3.5" name="80" order="7" upperFreq="4.0">
+<pin number="7" state="on"/>
+<pin number="6" state="off"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+</positions>
+</WioDevice>

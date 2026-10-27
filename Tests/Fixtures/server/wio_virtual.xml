@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="HEADING" matrixlockout="false" virtualSwitch="true">
+<devicename>Virtual &amp; Co</devicename>
+<positions>
+<position beamwidth="60" bidirectional="true" heading="0" lowerFreq="0.0" name="North" order="0" upperFreq="0.0">
+<real name="Ant Switch" position="FIRST"/>
+<real name="Tower" position="#123.5"/>
+</position>
+<position beamwidth="45" bidirectional="false" heading="180" lowerFreq="0.0" name="South &quot;S&quot;" order="1" upperFreq="0.0">
+<real name="Ant &lt;Switch&gt;" position="TWO"/>
+<real name="Tower" position="$cmd"/>
+</position>
+<position beamwidth="0" bidirectional="false" heading="90" lowerFreq="0.0" name="Empty" order="2" upperFreq="0.0"/>
+</positions>
+</WioDevice>

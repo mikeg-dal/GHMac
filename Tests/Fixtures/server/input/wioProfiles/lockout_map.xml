@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="HEADING" matrixlockout="true">
+<devicename>Lockout Map</devicename>
+<positions>
+<position beamwidth="60" bidirectional="false" heading="0" lowerFreq="0.0" name="0 deg" order="0" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="on"/>
+</position>
+<position beamwidth="60" bidirectional="false" heading="60" lowerFreq="0.0" name="60 deg" order="1" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="on"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="60" bidirectional="false" heading="120" lowerFreq="0.0" name="120 deg" order="2" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="on"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="60" bidirectional="false" heading="180" lowerFreq="0.0" name="180 deg" order="3" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="off"/>
+<pin number="4" state="off"/>
+<pin number="3" state="on"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="60" bidirectional="false" heading="240" lowerFreq="0.0" name="240 deg" order="4" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="off"/>
+<pin number="4" state="on"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="60" bidirectional="false" heading="300" lowerFreq="0.0" name="300 deg" order="5" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="on"/>
+<pin number="4" state="off"/>
+<pin number="3" state="off"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+</positions>
+</WioDevice>

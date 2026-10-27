@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="ON_OFF_BANK">
+<devicename>Amp Toggle</devicename>
+<positions>
+<position beamwidth="0" bidirectional="false" heading="0" lowerFreq="0.0" name="AMP" order="0" upperFreq="0.0">
+<pin number="7" state="on"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="dont-care"/>
+<pin number="2" state="dont-care"/>
+<pin number="1" state="dont-care"/>
+<pin number="0" state="dont-care"/>
+</position>
+</positions>
+</WioDevice>

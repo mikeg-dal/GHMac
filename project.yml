@@ -1,0 +1,267 @@
+name: GHMac
+options:
+  bundleIdPrefix: com.mikegarcia
+  deploymentTarget:
+    macOS: "27.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "6"
+    SWIFT_STRICT_CONCURRENCY: complete
+    ARCHS: arm64
+    EXCLUDED_ARCHS: x86_64
+    ONLY_ACTIVE_ARCH: YES
+    MACOSX_DEPLOYMENT_TARGET: "27.0"
+    DEAD_CODE_STRIPPING: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEVELOPMENT_TEAM: 49G92DYD5H
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_TREAT_WARNINGS_AS_ERRORS: NO
+
+targetTemplates:
+  Kit:
+    type: framework
+    platform: macOS
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        SKIP_INSTALL: YES
+        DEFINES_MODULE: YES
+  KitTests:
+    type: bundle.unit-test
+    platform: macOS
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+  App:
+    type: application
+    platform: macOS
+    settings:
+      base:
+        ENABLE_HARDENED_RUNTIME: YES
+        SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+        SWIFT_APPROACHABLE_CONCURRENCY: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        COMBINE_HIDPI_IMAGES: YES
+      configs:
+        Release:
+          CODE_SIGN_STYLE: Manual
+          CODE_SIGN_IDENTITY: "Developer ID Application"
+          OTHER_CODE_SIGN_FLAGS: "--timestamp"
+          CODE_SIGN_INJECT_BASE_ENTITLEMENTS: NO
+
+targets:
+  GHEKit:
+    templates: [Kit]
+    sources: [Sources/GHEKit]
+    dependencies:
+      - sdk: IOKit.framework
+      - sdk: Network.framework
+      - sdk: Security.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEKit
+        PRODUCT_NAME: GHEKit
+
+  GHEServerKit:
+    templates: [Kit]
+    sources: [Sources/GHEServerKit]
+    dependencies:
+      - target: GHEKit
+      - sdk: Security.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEServerKit
+        PRODUCT_NAME: GHEServerKit
+
+  GHEClientKit:
+    templates: [Kit]
+    sources: [Sources/GHEClientKit]
+    dependencies:
+      - target: GHEKit
+      - sdk: Carbon.framework
+      - sdk: Security.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEClientKit
+        PRODUCT_NAME: GHEClientKit
+
+  GHESimKit:
+    templates: [Kit]
+    sources: [Sources/GHESimKit]
+    dependencies:
+      - target: GHEKit
+      - target: GHEServerKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHESimKit
+        PRODUCT_NAME: GHESimKit
+
+  GHEServer:
+    templates: [App]
+    sources: [Sources/GHEServer]
+    dependencies:
+      - target: GHEKit
+      - target: GHEServerKit
+      - target: GHESimKit
+    info:
+      path: Config/Server/Info.plist
+      properties:
+        CFBundleDisplayName: GHMac Server
+        CFBundleName: GHMac Server
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: "27.0"
+        NSHumanReadableCopyright: "Copyright © 2026 Mike Garcia. MIT License."
+        NSLocalNetworkUsageDescription: "GHMac Server talks to rotor controllers and clients on your local network."
+        UTExportedTypeDeclarations:
+          - UTTypeIdentifier: com.mikegarcia.ghmac.wio-profile
+            UTTypeDescription: WIO Profile
+            UTTypeConformsTo: [public.xml]
+            UTTypeTagSpecification:
+              public.filename-extension: [xml]
+    entitlements:
+      path: Config/Server/GHEServer.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.device.serial: true
+        com.apple.security.files.user-selected.read-write: true
+        com.apple.security.network.client: true
+        com.apple.security.network.server: true
+    settings:
+      base:
+        PRODUCT_NAME: GHMac Server
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHMacServer
+
+  GHEClient:
+    templates: [App]
+    sources: [Sources/GHEClient]
+    dependencies:
+      - target: GHEKit
+      - target: GHEClientKit
+      - target: GHEServerKit
+      - target: GHESimKit
+    info:
+      path: Config/Client/Info.plist
+      properties:
+        CFBundleDisplayName: GHMac Client
+        CFBundleName: GHMac Client
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: "27.0"
+        NSHumanReadableCopyright: "Copyright © 2026 Mike Garcia. MIT License."
+        NSLocalNetworkUsageDescription: "GHMac Client talks to servers, rotor controllers and logging programs on your local network."
+    entitlements:
+      path: Config/Client/GHEClient.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.device.serial: true
+        com.apple.security.device.usb: true
+        com.apple.security.files.user-selected.read-write: true
+        com.apple.security.network.client: true
+        com.apple.security.network.server: true
+        com.apple.security.cs.disable-library-validation: true
+    settings:
+      base:
+        PRODUCT_NAME: GHMac Client
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHMacClient
+
+  GHEKitTests:
+    templates: [KitTests]
+    sources: [Tests/GHEKitTests, Tests/Shared]
+    dependencies:
+      - target: GHEKit
+      - target: GHESimKit
+      - target: GHEServerKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEKitTests
+
+  GHEServerKitTests:
+    templates: [KitTests]
+    sources: [Tests/GHEServerKitTests, Tests/Shared]
+    dependencies:
+      - target: GHEKit
+      - target: GHEServerKit
+      - target: GHESimKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEServerKitTests
+
+  GHEClientKitTests:
+    templates: [KitTests]
+    sources: [Tests/GHEClientKitTests, Tests/Shared]
+    dependencies:
+      - target: GHEKit
+      - target: GHEClientKit
+      - target: GHEServerKit
+      - target: GHESimKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEClientKitTests
+
+  GHEServerUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources: [Tests/GHEServerUITests]
+    dependencies:
+      - target: GHEServer
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEServerUITests
+        TEST_TARGET_NAME: GHEServer
+
+  GHEClientUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources: [Tests/GHEClientUITests]
+    dependencies:
+      - target: GHEClient
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.mikegarcia.GHEClientUITests
+        TEST_TARGET_NAME: GHEClient
+
+schemes:
+  GHEServer:
+    build:
+      targets:
+        GHEServer: all
+    run:
+      config: Debug
+      commandLineArguments:
+        "-GHESimulator demo": false
+    test:
+      config: Debug
+      targets: [GHEKitTests, GHEServerKitTests, GHEServerUITests]
+    archive:
+      config: Release
+  GHEClient:
+    build:
+      targets:
+        GHEClient: all
+    run:
+      config: Debug
+      commandLineArguments:
+        "-GHESimulator demo": false
+    test:
+      config: Debug
+      targets: [GHEKitTests, GHEClientKitTests, GHEClientUITests]
+    archive:
+      config: Release
+  Kits:
+    build:
+      targets:
+        GHEKit: all
+        GHEServerKit: all
+        GHEClientKit: all
+        GHESimKit: all
+    test:
+      config: Debug
+      targets: [GHEKitTests, GHEServerKitTests, GHEClientKitTests]

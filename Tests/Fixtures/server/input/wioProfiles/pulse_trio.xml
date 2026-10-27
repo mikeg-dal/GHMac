@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WioDevice displayType="SWITCH" matrixlockout="false">
+<devicename>Pulse Trio</devicename>
+<positions>
+<position beamwidth="120" bidirectional="false" heading="0" lowerFreq="0.0" name="P1" order="0" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="dont-care"/>
+<pin number="2" state="off"/>
+<pin number="1" state="off"/>
+<pin number="0" state="momentary"/>
+</position>
+<position beamwidth="120" bidirectional="false" heading="120" lowerFreq="0.0" name="P2" order="1" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="dont-care"/>
+<pin number="2" state="off"/>
+<pin number="1" state="momentary"/>
+<pin number="0" state="off"/>
+</position>
+<position beamwidth="120" bidirectional="false" heading="240" lowerFreq="0.0" name="P3" order="2" upperFreq="0.0">
+<pin number="7" state="dont-care"/>
+<pin number="6" state="dont-care"/>
+<pin number="5" state="dont-care"/>
+<pin number="4" state="dont-care"/>
+<pin number="3" state="dont-care"/>
+<pin number="2" state="momentary"/>
+<pin number="1" state="off"/>
+<pin number="0" state="off"/>
+</position>
+</positions>
+</WioDevice>

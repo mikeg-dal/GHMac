@@ -1,30 +1,35 @@
-# GHMac
+# GHMac for macOS
 
 Free, native macOS apps for running Green Heron antenna rotor controllers and switch boxes from a Mac.
+I wrote them to use my own Green Heron hardware, which has no macOS software.
 
-> [!IMPORTANT]
-> **Not affiliated with Green Heron Engineering.**
-> GHMac is an independent, personal project. I wrote it to use my own Green Heron hardware, which has no
-> macOS software. It is not made, endorsed or supported by Green Heron Engineering.
+> [!WARNING]
+> **Use at your own risk.** This is independent software by Mike (KF5O). It is not affiliated with,
+> endorsed by, or supported by Green Heron Engineering. Green Heron, RT-21, DCU-1 and other product
+> names are their owners' trademarks and are used here only to describe compatibility.
 >
 > - **Please don't contact Green Heron Engineering about GHMac.** They have nothing to do with it.
 > - **No one supports this software.** Issues and pull requests may or may not get a response.
-> - **Use it at your own risk.** It's provided "as is", without warranty of any kind (see [LICENSE](LICENSE)).
->   It sends commands that move antennas and switch RF paths. You're responsible for any damage to equipment,
->   property or anything else.
->
-> Green Heron, RT-21, DCU-1 and other product names are trademarks of their owners and are used here
-> only to describe compatibility.
+> - It sends commands that move antennas and switch RF paths. Try anything new while you can watch the
+>   hardware. You're responsible for any damage to equipment, property or anything else. The software is
+>   provided as is, without warranty of any kind; see [LICENSE](LICENSE).
+
+Built with Swift 6, SwiftUI and AppKit. No third-party dependencies.
+
+## Requirements
+
+- macOS 27 or later, on Apple silicon. There is no Intel build.
+- An RT-21 / DCU-1 on a USB serial adapter or an RT-21 network module on the same network. macOS asks for
+  Local Network access the first time each app starts.
+- To build: Xcode 27 and [XcodeGen](https://github.com/yonaskolb/XcodeGen).
 
 ## What it is
-Two apps:
 
 - **GHMac Server** drives RT-21 / DCU-1 rotor controllers (USB serial or the RT-21's network module),
   Base/Remote switch boxes, stack matches, fixed and cloned antennas, and serves clients on TCP 17220.
 - **GHMac Client** has the rotor tray, rotor map, switch panels, presets, hotkeys and Phidget knobs, and follows
   band changes from N1MM+ / DXLog / Commander / FRStack / PSTRotator, Win-Test and N3FJP. It can also connect
   straight to an RT-21 network module ("Terminal Server (TCP)").
-- Swift 6, SwiftUI + AppKit, Apple silicon, macOS 27, no third-party dependencies.
 
 Install both on a Mac and set everything up from scratch: there is nothing to import.
 
